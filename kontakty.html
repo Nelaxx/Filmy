@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>Using CSS to style an HTML Form</h3>
+main<
+<div class="form kontakty">
+  <form action="https://formspree.io/f/xyzyzazk" method="POST">
+    <label for="aname">Jaki jest twój ulubiony piosenakrz?</label>
+    <input type="text" id="aname" name="Jaki jest twój ulubiony piosenkarz?" placeholder="Twój ulubiony artysta...">
+
+    <label for="akname">Jaki jest twój ulubiony aktor?</label>
+    <input type="text" id="akname" name="Jaki jest twój ulubiony aktor?" placeholder="Twój ulubiony aktor...">
+
+    <label for="Który elemet popkultury lubisz najbardziej?">Który elemet popkultury lubisz najbardziej</label>
+    <select id="pop" name="Masz:">
+      <option value="Laurie's proposal">Laurie's proposal</option>
+      <option value="Paul Mescal x Phoebe Bridgers x Daisy Edgar Jones">Paul Mescal x Phoebe Bridgers x Daisy Edgar Jones</option>
+      <option value="Troye Sivan aka Timothee">Troye Sivan aka Timothee</option>
+      <option value="INNE">INNE</option>
+    </select>
+    <label for="text-area">Który elemet popkultury lubisz najbardziej?</label>
+    <textarea>Dlaczego??</textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xyzyzazk"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
+
+
