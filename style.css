@@ -39,7 +39,7 @@ main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(12, 65, 7);
+    background-color: rgb(white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 main p, main ul, main ol {
